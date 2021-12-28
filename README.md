@@ -11,7 +11,6 @@
 
 ```
 npx degit danielkellyio/my-vite-template [project-name]
-```
-
 npm install
 npm run dev
+```
