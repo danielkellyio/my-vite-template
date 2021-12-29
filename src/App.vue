@@ -1,5 +1,6 @@
 <script setup>
 import HelloWorld from "@/components/HelloWorld.vue";
+import MyMarkdown from "@/MyMarkdown.md";
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+      <MyMarkdown />
 
       <nav>
         <router-link to="/">Home</router-link>
